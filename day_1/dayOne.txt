@@ -1,0 +1,12 @@
+what is java ?
+Java is a general purpose, object-oriented, high-level programming language deve;oped by Sun Microsystems in 1991.
+
+What are variables ?
+A variable is a name given to a memory location that holds a value. it is used to store data that our program can use and manipulate
+its syntax: 
+dataType variableName = value;
+
+What are datatypes ?
+Datatypes in java define the type of data a variable can hold. they help the compiler understand: how much memory to allocate, what kind of operations are allowed on the data
+
+
