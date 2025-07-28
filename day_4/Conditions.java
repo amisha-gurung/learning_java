@@ -20,7 +20,6 @@ public class Conditions{
         else{
             System.out.println("No Discount");
         }
-
-
     }
 }
+
