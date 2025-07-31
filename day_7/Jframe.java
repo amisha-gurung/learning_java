@@ -1,5 +1,5 @@
 import javax.swing.*;
-
+//Adding Labels and Text Fields
 public class Jframe{
     public static void main(String[] args){
         JFrame frame = new JFrame("Registration Form"); //creating a window with title
