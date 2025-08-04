@@ -24,15 +24,19 @@ This repository contains my daily Java learning exercises, projects, and notes a
 - **Day 7**: GUI Programming with Swing
   - `Registration.java` - Registration form with JFrame, JTextField, JPasswordField, and ActionListeners
 
-- **Day 8**: Database Connectivity
+- **Day 8**: Database Connectivity Foundation
   - `Javadb.java` - MySQL database connection using JDBC
+  - `Jdbc.java` - Basic JDBC connection and error handling
+
+- **Day 9**: Advanced JDBC Operations
+  - `Morejdbc.java` - Query execution and ResultSet processing
 
 ## 🛠️ How to Run the Code
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
 - Any text editor or IDE (VS Code, IntelliJ IDEA, Eclipse)
-- MySQL Server (for Day 8 database examples)
+- MySQL Server (for Day 8-9 database examples)
 - MySQL JDBC Driver (mysql-connector-java.jar)
 
 ### Running the Programs
@@ -55,12 +59,12 @@ javac Registration.java
 java Registration
 ```
 
-**For Day 8 (Database):**
+**For Day 8-9 (Database Programming):**
 ```bash
-cd day_8
+cd day_8  # or day_9
 # Download MySQL Connector/J first
-javac -cp ".:mysql-connector-java-8.0.33.jar" Javadb.java
-java -cp ".;mysql-connector-java-8.0.33.jar" Javadb
+javac -cp ".:mysql-connector-java-8.0.33.jar" filename.java
+java -cp ".;mysql-connector-java-8.0.33.jar" filename
 ```
 
 ## 📖 Learning Topics Covered
@@ -89,18 +93,26 @@ java -cp ".;mysql-connector-java-8.0.33.jar" Javadb
   - Event handling with ActionListener
   - Layout management with absolute positioning
 
-- [x] **Day 8**: Database Programming
-  - JDBC connectivity
-  - MySQL database connection
-  - SQL query execution
+- [x] **Day 8**: Database Programming Fundamentals
+  - JDBC connectivity concepts
+  - DriverManager and Connection objects
+  - Error handling with try-catch-finally
+  - Connection cleanup and resource management
+
+- [x] **Day 9**: Advanced JDBC Operations
+  - Statement creation and execution
+  - SQL query execution with executeQuery()
+  - ResultSet processing and data retrieval
+  - Iterating through database results
 
 - [ ] **Upcoming Topics**:
+  - PreparedStatement for secure queries
+  - Database CRUD operations (Create, Read, Update, Delete)
   - Advanced OOP (Inheritance, Polymorphism, Encapsulation)
   - Collections Framework
   - Exception Handling
   - File I/O
   - Multithreading
-  - Advanced GUI with Layout Managers
 
 ## 🎯 Learning Goals
 
@@ -108,6 +120,8 @@ java -cp ".;mysql-connector-java-8.0.33.jar" Javadb
 - ✅ Understand control flow and logic
 - ✅ Build GUI applications
 - ✅ Connect to databases
+- ✅ Execute SQL queries and process results
+- 🔄 Advanced database operations (INSERT, UPDATE, DELETE)
 - 🔄 Advanced OOP concepts
 - 🔄 Build practical projects
 - 🔄 Develop problem-solving skills
@@ -117,8 +131,9 @@ java -cp ".;mysql-connector-java-8.0.33.jar" Javadb
 - **Language**: Java
 - **IDE**: Visual Studio Code
 - **GUI Framework**: Java Swing
-- **Database**: MySQL
+- **Database**: MySQL (via XAMPP)
 - **JDBC Driver**: MySQL Connector/J
+- **Database Tool**: phpMyAdmin
 - **Version Control**: Git & GitHub
 
 ## 📝 Project Structure
@@ -138,16 +153,29 @@ learning_java/
 ├── day_7/
 │   └── Registration.java
 ├── day_8/
-│   └── Javadb.java
+│   ├── Javadb.java
+│   └── Jdbc.java
+├── day_9/
+│   └── Morejdbc.java
 └── README.md
 ```
 
 ## 🚀 Recent Achievements
 
-- 🎨 Created my first GUI application with interactive forms
-- 🗄️ Successfully connected Java to MySQL database
-- 🧮 Built logic-based programs with complex conditions
+- 🎨 Created interactive GUI applications with event handling
+- 🗄️ Successfully mastered MySQL database connectivity
+- 📊 Learned to execute SQL queries and process results
+- 🧮 Built complex logic-based programs with conditions
 - 🔄 Mastered nested loops and pattern generation
+- 🛠️ Implemented proper error handling and resource management
+
+## 🔥 Current Focus: Database Programming
+
+Currently diving deep into **JDBC (Java Database Connectivity)**:
+- Understanding Connection, Statement, and ResultSet objects
+- Learning proper resource management and cleanup
+- Practicing SQL query execution and data processing
+- Building foundation for full-stack Java applications
 
 ## 🤝 Connect
 
@@ -156,4 +184,4 @@ Feel free to follow my learning journey! Suggestions and feedback are always wel
 ---
 *Learning Java one day at a time!* ☕
 
-**Days Active:** 8 | **Programs Written:** 8+ | **Concepts Mastered:** 15+
+**Days Active:** 9 | **Programs Written:** 10+ | **Concepts Mastered:** 20+
