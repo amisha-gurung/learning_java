@@ -31,6 +31,16 @@ This repository contains my daily Java learning exercises, projects, and notes a
 - **Day 9**: Advanced JDBC Operations
   - `Morejdbc.java` - Query execution and ResultSet processing
 
+- **Day 10**: Exception Handling Mastery
+  - Comprehensive exception handling with try-catch-finally blocks
+  - Multiple exception types and multi-catch blocks
+  - Resource management with try-with-resources
+
+- **Day 11**: Object-Oriented Programming - Inheritance
+  - `Inheritance.java` - Parent-child class relationships with extends keyword
+  - Constructor chaining with super() keyword
+  - Method inheritance and code reusability
+
 ## 🛠️ How to Run the Code
 
 ### Prerequisites
@@ -105,14 +115,27 @@ java -cp ".;mysql-connector-java-8.0.33.jar" filename
   - ResultSet processing and data retrieval
   - Iterating through database results
 
+- [x] **Day 10**: Exception Handling Mastery
+  - Try-catch-finally blocks for error handling
+  - Multiple exception types and catch blocks
+  - Multi-catch syntax for handling multiple exceptions
+  - Try-with-resources for automatic resource management
+  - Graceful error handling and program flow control
+
+- [x] **Day 11**: Object-Oriented Programming - Inheritance
+  - Parent-child class relationships with extends keyword
+  - Constructor chaining using super() keyword
+  - Method inheritance and code reusability
+  - Creating class hierarchies (Laptop → Asus example)
+
 - [ ] **Upcoming Topics**:
-  - PreparedStatement for secure queries
-  - Database CRUD operations (Create, Read, Update, Delete)
-  - Advanced OOP (Inheritance, Polymorphism, Encapsulation)
+  - Method Overriding and Polymorphism
+  - Abstract Classes and Interfaces
+  - Encapsulation and Access Modifiers
   - Collections Framework
-  - Exception Handling
-  - File I/O
+  - File I/O Operations
   - Multithreading
+  - Advanced OOP Design Patterns
 
 ## 🎯 Learning Goals
 
@@ -121,8 +144,9 @@ java -cp ".;mysql-connector-java-8.0.33.jar" filename
 - ✅ Build GUI applications
 - ✅ Connect to databases
 - ✅ Execute SQL queries and process results
-- 🔄 Advanced database operations (INSERT, UPDATE, DELETE)
-- 🔄 Advanced OOP concepts
+- ✅ Master exception handling for robust applications
+- ✅ Implement inheritance for code reusability
+- 🔄 Advanced OOP concepts (Polymorphism, Abstraction)
 - 🔄 Build practical projects
 - 🔄 Develop problem-solving skills
 
@@ -157,6 +181,10 @@ learning_java/
 │   └── Jdbc.java
 ├── day_9/
 │   └── Morejdbc.java
+├── day_10/
+│   └── Exception handling concepts (theory)
+├── day_11/
+│   └── Inheritance.java
 └── README.md
 ```
 
@@ -168,14 +196,17 @@ learning_java/
 - 🧮 Built complex logic-based programs with conditions
 - 🔄 Mastered nested loops and pattern generation
 - 🛠️ Implemented proper error handling and resource management
+- 🚫 Mastered exception handling for robust, crash-resistant applications
+- 🏗️ Learned inheritance for building scalable, reusable code structures
 
-## 🔥 Current Focus: Database Programming
+## 🔥 Current Focus: Object-Oriented Programming
 
-Currently diving deep into **JDBC (Java Database Connectivity)**:
-- Understanding Connection, Statement, and ResultSet objects
-- Learning proper resource management and cleanup
-- Practicing SQL query execution and data processing
-- Building foundation for full-stack Java applications
+Currently diving deep into **OOP (Object-Oriented Programming)**:
+- Understanding inheritance and class hierarchies
+- Learning constructor chaining with super() keyword
+- Practicing method inheritance and code reusability
+- Building foundation for advanced OOP concepts like polymorphism
+- Preparing for abstract classes and interfaces
 
 ## 🤝 Connect
 
@@ -184,4 +215,4 @@ Feel free to follow my learning journey! Suggestions and feedback are always wel
 ---
 *Learning Java one day at a time!* ☕
 
-**Days Active:** 9 | **Programs Written:** 10+ | **Concepts Mastered:** 20+
+**Days Active:** 11 | **Programs Written:** 12+ | **Concepts Mastered:** 25
