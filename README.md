@@ -41,6 +41,12 @@ This repository contains my daily Java learning exercises, projects, and notes a
   - Constructor chaining with super() keyword
   - Method inheritance and code reusability
 
+- **Day 12**: Interfaces and Advanced OOP
+  - `Interface.java` - Interface implementation with Animal-Dog example
+  - Abstract methods and default methods in interfaces
+  - Interface contracts and multiple inheritance capabilities
+  - Building foundation for polymorphism
+
 ## 🛠️ How to Run the Code
 
 ### Prerequisites
@@ -128,9 +134,16 @@ java -cp ".;mysql-connector-java-8.0.33.jar" filename
   - Method inheritance and code reusability
   - Creating class hierarchies (Laptop → Asus example)
 
+- [x] **Day 12**: Interfaces and Contract-Based Programming
+  - Interface declaration and implementation using `implements` keyword
+  - Abstract methods that must be implemented by classes
+  - Default methods in interfaces (Java 8+ feature)
+  - Interface contracts and multiple inheritance capabilities
+  - Building foundation for polymorphism and abstraction
+
 - [ ] **Upcoming Topics**:
   - Method Overriding and Polymorphism
-  - Abstract Classes and Interfaces
+  - Abstract Classes vs Interfaces
   - Encapsulation and Access Modifiers
   - Collections Framework
   - File I/O Operations
@@ -146,7 +159,9 @@ java -cp ".;mysql-connector-java-8.0.33.jar" filename
 - ✅ Execute SQL queries and process results
 - ✅ Master exception handling for robust applications
 - ✅ Implement inheritance for code reusability
-- 🔄 Advanced OOP concepts (Polymorphism, Abstraction)
+- ✅ Understanding interfaces and contract-based programming
+- 🔄 Method Overriding and Polymorphism
+- 🔄 Abstract Classes and advanced abstraction
 - 🔄 Build practical projects
 - 🔄 Develop problem-solving skills
 
@@ -185,6 +200,8 @@ learning_java/
 │   └── Exception handling concepts (theory)
 ├── day_11/
 │   └── Inheritance.java
+├── day_12/
+│   └── Interface.java
 └── README.md
 ```
 
@@ -198,15 +215,19 @@ learning_java/
 - 🛠️ Implemented proper error handling and resource management
 - 🚫 Mastered exception handling for robust, crash-resistant applications
 - 🏗️ Learned inheritance for building scalable, reusable code structures
+- 📋 Mastered interfaces and contract-based programming
+- 🔗 Understanding multiple inheritance through interfaces
 
-## 🔥 Current Focus: Object-Oriented Programming
+## 🔥 Current Focus: Advanced Object-Oriented Programming
 
-Currently diving deep into **OOP (Object-Oriented Programming)**:
-- Understanding inheritance and class hierarchies
-- Learning constructor chaining with super() keyword
-- Practicing method inheritance and code reusability
-- Building foundation for advanced OOP concepts like polymorphism
-- Preparing for abstract classes and interfaces
+Currently diving deep into **Advanced OOP (Object-Oriented Programming)**:
+- ✅ Mastered inheritance and class hierarchies
+- ✅ Constructor chaining with super() keyword
+- ✅ Interface contracts and implementation patterns
+- ✅ Abstract vs default methods in interfaces
+- 🔄 Preparing for method overriding and polymorphism
+- 🔄 Abstract classes vs interfaces comparison
+- 🔄 Building comprehensive OOP design patterns
 
 ## 🤝 Connect
 
@@ -215,4 +236,4 @@ Feel free to follow my learning journey! Suggestions and feedback are always wel
 ---
 *Learning Java one day at a time!* ☕
 
-**Days Active:** 11 | **Programs Written:** 12+ | **Concepts Mastered:** 25
+**Days Active:** 12 | **Programs Written:** 14+ | **Concepts Mastered:** 32+
