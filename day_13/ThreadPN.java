@@ -26,6 +26,7 @@ public class ThreadPN{
         //set name of threads
         tobj1.setName("Worker-1");
         tobj2.setName("Worker-2");
+        tobj2.setDaemon(true);
 
 
         //set priority of threads
