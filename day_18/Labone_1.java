@@ -34,8 +34,8 @@ public class Labone_1{
             System.out.println(arrElement + " ");
         }
 
-        System.out.println("\nThe largest number is: " + largest);
-        System.out.println("The smallest number is: " + smallest);
+        System.out.println("\nThe largest element is: " + largest);
+        System.out.println("The smallest element is: " + smallest);
 
         scanner.close();
     }
